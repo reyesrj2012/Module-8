@@ -28,7 +28,7 @@ year: number,
 weight: number,
 topSpeed: number,
 wheels: Wheel[],
-)}
+){
   super ();
   this.vin =vin;
   this.color = color;
@@ -43,6 +43,7 @@ wheels: Wheel[],
     } else {
       this.wheels =wheels;
     }
+  }
 
   // TODO: Implement the wheelie method
     // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
@@ -57,7 +58,7 @@ wheels: Wheel[],
   // TODO: The method should call the printDetails method of the parent class
   // TODO: The method should log the details of the Motorbike
   // TODO: The details should include the VIN, make, model, year, weight, top speed, color, and wheels
-override print (): void {
+override printDetails (): void {
   super.printDetails();
       console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
@@ -67,6 +68,7 @@ override print (): void {
     console.log(`Weight: ${this.weight} lbs`);
     console.log(`Top Speed: ${this.topSpeed} mph`);
     console.log(`wheel:${this.wheels}`)
+}
 }
 
 // Export the Motorbike class as the default export
