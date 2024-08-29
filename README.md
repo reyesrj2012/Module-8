@@ -2,7 +2,7 @@
 
 ## Description
 
-Creat a user to either create a new or vehicle or select an existing vehicle.  Once the selection process is complete, the user is able to perform certain action with the selected vehicle. The user returns to a menu ater every until they decide to exit the application. 
+Create an application that forces a  user to either create a new vehicle or select an existing vehicle.  Once the selection process is complete, the user is able to perform certain action with the selected vehicle. The user returns to a menu ater every until they decide to exit the application. 
 
 ## Contributing 
 
